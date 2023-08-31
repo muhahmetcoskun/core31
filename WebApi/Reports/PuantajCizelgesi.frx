@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report ScriptLanguage="CSharp" ReportInfo.Created="06/20/2009 23:03:47" ReportInfo.Modified="08/04/2023 14:29:45" ReportInfo.CreatorVersion="2023.2.0.0">
+  <Dictionary/>
+  <ReportPage Name="Page1" Landscape="true" PaperWidth="297" PaperHeight="210" RawPaperSize="9" Watermark.Font="Arial, 60pt">
+    <ReportTitleBand Width="1047.06" Height="103.95">
+      <TextObject Left="122.85" Width="718.2" Height="28.35" Text="AYLIK MAAŞ PUANTAJ ÇİZELGESİ" HorzAlign="Center" VertAlign="Center" Font="Arial, 12pt, style=Bold"/>
+      <TextObject Name="Text1" Left="141.75" Top="47.25" Width="160.65" Height="18.9" Text="[PARAMBIRIMADI]" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text2" Left="302.4" Top="47.25" Width="122.85" Height="18.9" Text="[PARAMBSLDONEM]" Format="Date" Format.Format="d" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text3" Left="425.25" Top="47.25" Width="122.85" Height="18.9" Text="[PARAMBTSDONEM]" Format="Date" Format.Format="d" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text4" Left="548.1" Top="47.25" Width="292.95" Height="18.9" Text="DÖNEMİ İŞÇİ MAAŞ PUANTAJ ÇİZELGESİ" Font="Arial, 10pt, style=Bold"/>
+    </ReportTitleBand>
+    <DataBand Name="Data1" Top="178.1" Width="1047.06" Height="66.15" Guides="0">
+      <TableObject Name="Table2" Left="37.8" Width="948.78" Height="66.15">
+        <TableColumn Name="Column23" Width="26.46"/>
+        <TableColumn Name="Column24" Width="37.8"/>
+        <TableColumn Name="Column25" Width="37.8"/>
+        <TableColumn Name="Column26" Width="51.03"/>
+        <TableColumn Name="Column27" Width="32.13"/>
+        <TableColumn Name="Column28" Width="47.25"/>
+        <TableColumn Name="Column29" Width="43.47"/>
+        <TableColumn Name="Column30" Width="47.25"/>
+        <TableColumn Name="Column31" Width="56.7"/>
+        <TableColumn Name="Column32" Width="43.47"/>
+        <TableColumn Name="Column33" Width="43.47"/>
+        <TableColumn Name="Column34" Width="56.7"/>
+        <TableColumn Name="Column35" Width="47.25"/>
+        <TableColumn Name="Column36" Width="47.25"/>
+        <TableColumn Name="Column37" Width="45.36"/>
+        <TableColumn Name="Column38" Width="37.8"/>
+        <TableColumn Name="Column39" Width="51.03"/>
+        <TableColumn Name="Column40" Width="41.58"/>
+        <TableColumn Name="Column41" Width="37.8"/>
+        <TableColumn Name="Column42" Width="37.8"/>
+        <TableColumn Name="Column43" Width="41.58"/>
+        <TableColumn Name="Column44" Width="37.8"/>
+        <TableRow Name="Row2" Height="66.15">
+          <TableCell Name="Cell133" Border.Lines="Left, Right, Bottom" Border.Color="Gainsboro" Border.Width="0.5" Text="[Row#]" HorzAlign="Center" VertAlign="Center" Font="Arial, 6pt"/>
+          <TableCell Name="Cell134" Border.Lines="Left, Right, Bottom" Border.Color="Gainsboro" Border.Width="0.5" Text="[dt.Adi]" HorzAlign="Center" VertAlign="Center" Font="Arial, 6pt"/>
+          <TableCell Name="Cell135" Border.Lines="Left, Right, Bottom" Border.Color="Gainsboro" Border.Width="0.5" HorzAlign="Center" VertAlign="Center" Font="Arial, 6pt"/>
+          <TableCell Name="Cell136" Border.Lines="Left, Right, Bottom" Border.Color="Gainsboro" Border.Width="0.5" HorzAlign="Center" VertAlign="Center" Font="Arial, 6pt"/>
+          <TableCell Name="Cell137" Border.Lines="Left, Right, Bottom" Border.Color="Gainsboro" Border.Width="0.5" HorzAlign="Center" VertAlign="Center" Font="Arial, 6pt"/>
+          <TableCell Name="Cell138" Border.Lines="Left, Right, Bottom" Border.Color="Gainsboro" Border.Width="0.5" HorzAlign="Center" VertAlign="Center" Font="Arial, 6pt"/>
+          <TableCell Name="Cell139" Border.Lines="Left, Right, Bottom" Border.Color="Gainsboro" Border.Width="0.5" HorzAlign="Center" VertAlign="Center" Font="Arial, 6pt"/>
+          <TableCell Name="Cell140" Border.Lines="Left, Right, Bottom" Border.Color="Gainsboro" Border.Width="0.5" HorzAlign="Center" VertAlign="Center" Font="Arial, 6pt"/>
+          <TableCell Name="Cell141" Border.Lines="Left, Right, Bottom" Border.Color="Gainsboro" Border.Width="0.5" HorzAlign="Center" VertAlign="Center" Font="Arial, 6pt"/>
+          <TableCell Name="Cell142" Border.Lines="Left, Right, Bottom" Border.Color="Gainsboro" Border.Width="0.5" HorzAlign="Center" VertAlign="Center" Font="Arial, 6pt"/>
+          <TableCell Name="Cell143" Border.Lines="Left, Right, Bottom" Border.Color="Gainsboro" Border.Width="0.5" HorzAlign="Center" VertAlign="Center" Font="Arial, 6pt"/>
+          <TableCell Name="Cell144" Border.Lines="Left, Right, Bottom" Border.Color="Gainsboro" Border.Width="0.5" HorzAlign="Center" VertAlign="Center" Font="Arial, 6pt"/>
+          <TableCell Name="Cell145" Border.Lines="Left, Right, Bottom" Border.Color="Gainsboro" Border.Width="0.5" HorzAlign="Center" VertAlign="Center" Font="Arial, 6pt"/>
+          <TableCell Name="Cell146" Border.Lines="Left, Right, Bottom" Border.Color="Gainsboro" Border.Width="0.5" HorzAlign="Center" VertAlign="Center" Font="Arial, 6pt"/>
+          <TableCell Name="Cell147" Border.Lines="Left, Right, Bottom" Border.Color="Gainsboro" Border.Width="0.5" HorzAlign="Center" VertAlign="Center" Font="Arial, 6pt"/>
+          <TableCell Name="Cell148" Border.Lines="Left, Right, Bottom" Border.Color="Gainsboro" Border.Width="0.5" HorzAlign="Center" VertAlign="Center" Font="Arial, 6pt"/>
+          <TableCell Name="Cell149" Border.Lines="Left, Right, Bottom" Border.Color="Gainsboro" Border.Width="0.5" HorzAlign="Center" VertAlign="Center" Font="Arial, 6pt"/>
+          <TableCell Name="Cell150" Border.Lines="Left, Right, Bottom" Border.Color="Gainsboro" Border.Width="0.5" HorzAlign="Center" VertAlign="Center" Font="Arial, 6pt"/>
+          <TableCell Name="Cell151" Border.Lines="Left, Right, Bottom" Border.Color="Gainsboro" Border.Width="0.5" HorzAlign="Center" VertAlign="Center" Font="Arial, 6pt"/>
+          <TableCell Name="Cell152" Border.Lines="Left, Right, Bottom" Border.Color="Gainsboro" Border.Width="0.5" HorzAlign="Center" VertAlign="Center" Font="Arial, 6pt"/>
+          <TableCell Name="Cell153" Border.Lines="Left, Right, Bottom" Border.Color="Gainsboro" Border.Width="0.5" HorzAlign="Center" VertAlign="Center" Font="Arial, 6pt"/>
+          <TableCell Name="Cell154" Border.Lines="Left, Right, Bottom" Border.Color="Gainsboro" Border.Width="0.5" HorzAlign="Center" VertAlign="Center" Font="Arial, 6pt"/>
+        </TableRow>
+      </TableObject>
+      <DataHeaderBand Name="DataHeader1" Top="107.95" Width="1047.06" Height="66.15">
+        <TableObject Name="Table1" Left="37.8" Width="948.78" Height="66.15">
+          <TableColumn Name="Column1" Width="26.46"/>
+          <TableColumn Name="Column2" Width="37.8"/>
+          <TableColumn Name="Column3" Width="37.8"/>
+          <TableColumn Name="Column4" Width="51.03"/>
+          <TableColumn Name="Column5" Width="32.13"/>
+          <TableColumn Name="Column6" Width="47.25"/>
+          <TableColumn Name="Column7" Width="43.47"/>
+          <TableColumn Name="Column8" Width="47.25"/>
+          <TableColumn Name="Column9" Width="56.7"/>
+          <TableColumn Name="Column10" Width="43.47"/>
+          <TableColumn Name="Column11" Width="43.47"/>
+          <TableColumn Name="Column12" Width="56.7"/>
+          <TableColumn Name="Column13" Width="47.25"/>
+          <TableColumn Name="Column14" Width="47.25"/>
+          <TableColumn Name="Column15" Width="45.36"/>
+          <TableColumn Name="Column16" Width="37.8"/>
+          <TableColumn Name="Column17" Width="51.03"/>
+          <TableColumn Name="Column18" Width="41.58"/>
+          <TableColumn Name="Column19" Width="37.8"/>
+          <TableColumn Name="Column20" Width="37.8"/>
+          <TableColumn Name="Column21" Width="41.58"/>
+          <TableColumn Name="Column22" Width="37.8"/>
+          <TableRow Name="Row1" Height="66.15">
+            <TableCell Name="Cell1" Border.Lines="All" Border.Width="0.5" Text="SIRA&#13;&#10;NO" HorzAlign="Center" VertAlign="Center" Font="Arial, 6pt, style=Bold"/>
+            <TableCell Name="Cell2" Border.Lines="All" Border.Width="0.5" Text="ADI&#13;&#10;SOYADI" HorzAlign="Center" VertAlign="Center" Font="Arial, 6pt, style=Bold"/>
+            <TableCell Name="Cell3" Border.Lines="All" Border.Width="0.5" Text="T.C&#13;&#10;KİMLİK&#13;&#10;NO" HorzAlign="Center" VertAlign="Center" Font="Arial, 6pt, style=Bold"/>
+            <TableCell Name="Cell4" Border.Lines="All" Border.Width="0.5" Text="ÜCRET DERECESİ" HorzAlign="Center" VertAlign="Center" Font="Arial, 6pt, style=Bold"/>
+            <TableCell Name="Cell5" Border.Lines="All" Border.Width="0.5" Text="TATİL&#13;&#10;SAATİ" HorzAlign="Center" VertAlign="Center" Font="Arial, 6pt, style=Bold"/>
+            <TableCell Name="Cell116" Border.Lines="All" Border.Width="0.5" Text="ŞEHİR&#13;&#10;VE&#13;&#10;TECRÜBE&#13;&#10;PİRİMİ&#13;&#10;(%10)" HorzAlign="Center" VertAlign="Center" Font="Arial, 6pt, style=Bold"/>
+            <TableCell Name="Cell117" Border.Lines="All" Border.Width="0.5" Text="YABANCI&#13;&#10;DİL&#13;&#10;PİRİMİ&#13;&#10;(%24)" HorzAlign="Center" VertAlign="Center" Font="Arial, 6pt, style=Bold"/>
+            <TableCell Name="Cell118" Border.Lines="All" Border.Width="0.5" Text="KISA&#13;&#10;ÇALIŞMA&#13;&#10;PRİMİ&#13;&#10;(%14)" HorzAlign="Center" VertAlign="Center" Font="Arial, 6pt, style=Bold"/>
+            <TableCell Name="Cell119" Border.Lines="All" Border.Width="0.5" Text="VERİMLİLİĞİ&#13;&#10;TEŞVİK&#13;&#10;PRİMİ&#13;&#10;(%15)" HorzAlign="Center" VertAlign="Center" Font="Arial, 6pt, style=Bold"/>
+            <TableCell Name="Cell120" Border.Lines="All" Border.Width="0.5" Text="İDARECİ&#13;&#10;PRİMİ&#13;&#10;(%6)&#13;&#10;(%9)&#13;&#10;(%14)" HorzAlign="Center" VertAlign="Center" Font="Arial, 6pt, style=Bold"/>
+            <TableCell Name="Cell121" Border.Lines="All" Border.Width="0.5" Text="VARDİYA&#13;&#10;PRİMİ&#13;&#10;(%10)" HorzAlign="Center" VertAlign="Center" Font="Arial, 6pt, style=Bold"/>
+            <TableCell Name="Cell122" Border.Lines="All" Border.Width="0.5" Text="VARDİYALI&#13;&#10;ÇALIŞMA&#13;&#10;DESTEKLEME&#13;&#10;PRİMİ&#13;&#10;(%35)" HorzAlign="Center" VertAlign="Center" Font="Arial, 6pt, style=Bold"/>
+            <TableCell Name="Cell123" Border.Lines="All" Border.Width="0.5" Text="GECE&#13;&#10;ÇALIŞMA&#13;&#10;PRİMİ&#13;&#10;(%20)" HorzAlign="Center" VertAlign="Center" Font="Arial, 6pt, style=Bold"/>
+            <TableCell Name="Cell124" Border.Lines="All" Border.Width="0.5" Text="FAZLA&#13;&#10;SÜRELİ&#13;&#10;ÇALIŞMA&#13;&#10;(%35)" HorzAlign="Center" VertAlign="Center" Font="Arial, 6pt, style=Bold"/>
+            <TableCell Name="Cell125" Border.Lines="All" Border.Width="0.5" Text="FAZLA&#13;&#10;ÇALIŞMA&#13;&#10;(%80)" HorzAlign="Center" VertAlign="Center" Font="Arial, 6pt, style=Bold"/>
+            <TableCell Name="Cell126" Border.Lines="All" Border.Width="0.5" Text="YOLDA&#13;&#10;GEÇEN&#13;&#10;SÜRE" HorzAlign="Center" VertAlign="Center" Font="Arial, 6pt, style=Bold"/>
+            <TableCell Name="Cell127" Border.Lines="All" Border.Width="0.5" Text="SİGORTALI&#13;&#10;GÜN&#13;&#10;SAYISI" HorzAlign="Center" VertAlign="Center" Font="Arial, 6pt, style=Bold"/>
+            <TableCell Name="Cell128" Border.Lines="All" Border.Width="0.5" Text="SOSYAL&#13;&#10;YARDIM&#13;&#10;GÜN&#13;&#10;SAYISI" HorzAlign="Center" VertAlign="Center" Font="Arial, 6pt, style=Bold"/>
+            <TableCell Name="Cell129" Border.Lines="All" Border.Width="0.5" Text="NAKDİ&#13;&#10;YEMEK&#13;&#10;GÜN&#13;&#10;SAYISI" HorzAlign="Center" VertAlign="Center" Font="Arial, 6pt, style=Bold"/>
+            <TableCell Name="Cell130" Border.Lines="All" Border.Width="0.5" Text="AYNI&#13;&#10;YEMEK&#13;&#10;GÜN&#13;&#10;SAYISI" HorzAlign="Center" VertAlign="Center" Font="Arial, 6pt, style=Bold"/>
+            <TableCell Name="Cell131" Border.Lines="All" Border.Width="0.5" Text="GÖREV&#13;&#10;YEMEĞİ&#13;&#10;GÜN&#13;&#10;SAYISI" HorzAlign="Center" VertAlign="Center" Font="Arial, 6pt, style=Bold"/>
+            <TableCell Name="Cell132" Border.Lines="All" Border.Width="0.5" Text="GÖREV&#13;&#10;PRİM&#13;&#10;GÜN&#13;&#10;SAYISI" HorzAlign="Center" VertAlign="Center" Font="Arial, 6pt, style=Bold"/>
+          </TableRow>
+        </TableObject>
+      </DataHeaderBand>
+    </DataBand>
+    <ReportSummaryBand Name="ReportSummary1" Top="248.25" Width="1047.06" Height="207.9">
+      <TextObject Name="Text5" Left="189" Top="18.9" Width="94.5" Height="56.7" Text="(İMZA)&#13;&#10;..........&#13;&#10;Puantör" HorzAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text6" Left="699.3" Top="18.9" Width="94.5" Height="56.7" Text="(İMZA)&#13;&#10;..........&#13;&#10;Per.Ks.Amiri" HorzAlign="Center" Font="Arial, 10pt, style=Bold"/>
+      <TextObject Name="Text7" Left="425.25" Top="75.6" Width="122.85" Height="113.4" Text="ONAY&#13;&#10;.../.../......&#13;&#10;(İMZA)&#13;&#10;..............&#13;&#10;İşveren Vekili&#13;&#10;" HorzAlign="Center" Font="Arial, 10pt, style=Bold"/>
+    </ReportSummaryBand>
+  </ReportPage>
+</Report>
